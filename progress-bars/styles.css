@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+}
+
+.filledbar {
+  display: inline-block;
+  background-color: green;
+  height: 8px;
+}
+
+.emptybar {
+  display: inline-block;
+  background-color: #ddd;
+  height: 8px;
+}

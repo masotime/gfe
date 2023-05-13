@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+}
+
+table {  
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2em;
+}
+
+table td, table th {
+  min-width: 6em;  
+  padding: 0.5em;
+  text-align: center;
+}
+
+table th {
+  border-bottom: 1px solid black;
+}
+
+button {
+  border: 1px solid black;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  margin: 0 0.5em;
+  cursor: pointer;
+  height: 2.5em;
+}
+
+button:hover {
+  background-color: #eee;
+}
+
+.top-controls {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+}
+
+.counter-controls {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.counter-controls button {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.counter-controls h1 {
+  padding-left: 1em;
+  padding-right: 1em;
+}

@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.progress {
+  background-color: rgb(233, 236, 239);
+  border: 1px solid #c5c5c5;
+  border-radius: 8px;
+  height: 20px;
+  overflow: hidden;
+  margin-bottom: .5em;
+}
+
+.progress-filled {
+  display: flex;
+  background-color: blue;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 12px;
+}
